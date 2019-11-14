@@ -4,10 +4,10 @@ const firebaseConfig = require('./firebaseConfig')
 
 const routes = require('./routes');
 const app =  express();
-firebaseConfig()
 //Fim importes
 
 
+firebaseConfig()
 //Permissão de acesso de requisições http
 app.use(cors())
 
