@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "dev": "nodemon src/serve.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase": "^7.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Diozefe Ferreira Morais",
+  "license": "MIT"
+}
