@@ -1,11 +1,11 @@
 const express = require('express');
 
 const AuthenticationController = require('./controllers/AutenticationController');
-const CreateUserController = require('./controllers/CreateUserController');
+const UserController = require('./controllers/UserController');
 
 const routes = express.Router();
 
 routes.post('/sessions', AuthenticationController.index);
-routes.post('/createusers', CreateUserController.store);
+routes.post('/createusers', UserController.store);
 
 module.exports = routes;
