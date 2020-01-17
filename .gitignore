@@ -1,6 +1,7 @@
-./backend/node_modules
+backend/node_modules
 yarn-error.log
 yarn.lock
-./frontend/node_modules
+backend/src/config/jsonapp-meta.json
+frontend/node_modules
 yarn-error.log
 yarn.lock
