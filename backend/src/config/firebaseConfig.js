@@ -8,5 +8,6 @@ module.exports = function(){
     storageBucket: "app-meta-d0e38.appspot.com",
     messagingSenderId: "814301693682",
     appId: "1:814301693682:web:ca6391df913bcc57"
-  })
+  },{appname: 'web-aplication'});
+  firebase.auth().useDeviceLanguage();
 }
